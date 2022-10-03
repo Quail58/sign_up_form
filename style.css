@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+.main_img {
+    height: 99vh;
+    width: auto;
+}
+
+.photo_credit {
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+    color: white;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: white;
+  }
