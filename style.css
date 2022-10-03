@@ -6,8 +6,9 @@ body {
 
 
 .main_img {
-    height: 99vh;
+    height: 100vh;
     width: auto;
+    position: absolute;
 }
 
 .photo_credit {
