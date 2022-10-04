@@ -104,11 +104,13 @@ a:link, a:visited, a:hover, a:active {
 input {
     margin-bottom: 25px;
     margin-right: 40px;
+    padding-left: 10px;
     width: 20rem;
     height: 25px;
     font-size: larger;
     font-family: mySecondFont;
-    border-radius: 15px;
+    border-radius: 5px;
+    border: 1000px solid white;
     background-color: #3d0309;
     color: white;
     border: 0px;
@@ -140,3 +142,4 @@ button {
     top: 80px;
     font-size: small;
 }
+
