@@ -52,6 +52,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .right_side{
+    position: relative;
     border: 5px white;
     color: white;
     margin-left: auto;
@@ -65,7 +66,8 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .top {
-    padding-top: 150px;
+    position: relative;
+    top: 15vh;
 }
 
 .sum_text, .sum_text_2 {
@@ -77,17 +79,20 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .middle{
+    position: relative;
     height: 33vh;
     width: auto;
     background-color: rgb(7, 7, 7);
     margin-top: 60px;
     box-shadow: 10px 5px 30px rgb(36, 36, 36);
     padding: 25px;
+    top: 15vh;
 }
 
 .inputs {
     display: flex;
     flex-direction: row;
+
 }
 
 .leftForm, .rightForm {
@@ -113,15 +118,25 @@ label {
     padding-left: 10px;
 }
 
-button {
+.submitButton {
     position: absolute;
     z-index: 3;
+    bottom: -15vh;
+    left: 45px;
+}
+
+button {
     background-color: #3d0309;
     border: 0;
     border-radius: 15px;
     height: 50px;
     width: 200px;
     font-family: mySecondFont;
-    bottom: 13vh;
-    right: 53.5vw;
+    color: white;
+    font-size:large;
+}
+
+.signIn{
+    top: 80px;
+    font-size: small;
 }
