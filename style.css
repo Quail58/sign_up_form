@@ -88,7 +88,6 @@ a:link, a:visited, a:hover, a:active {
 .inputs {
     display: flex;
     flex-direction: row;
-    border-radius: 50%;
 }
 
 .leftForm, .rightForm {
@@ -104,4 +103,8 @@ input {
     height: 25px;
     font-size: larger;
     font-family: mySecondFont;
+    border-radius: 15px;
+    background-color: #3d0309;
+    color: white;
+    border: 0px;
 }
