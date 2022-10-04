@@ -21,4 +21,15 @@ body {
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color: white;
-  }
+}
+
+.right_side{
+    border: 5px white;
+    color: white;
+    margin-left: auto;
+    margin-right: 0;
+    height: 100vh;
+    width: 66.25vw;
+    background-color: black
+    position: relative;
+}
