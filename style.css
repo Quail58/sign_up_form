@@ -6,12 +6,12 @@ body {
 
 @font-face {
     font-family: myFirstFont;
-    src: url(/home/john/Odin_Project/sign_up_form/THE_SOLSTICE.ttf);
+    src: url(./THE_SOLSTICE.ttf);
 }
 
 @font-face {
     font-family: mySecondFont;
-    src: url(/home/john/Odin_Project/sign_up_form/conthrax-sb.ttf);
+    src: url(./conthrax-sb.ttf);
 }
 
 .main_img {
