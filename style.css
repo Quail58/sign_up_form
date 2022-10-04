@@ -6,7 +6,7 @@ body {
 
 @font-face {
     font-family: myFirstFont;
-    src: url(/home/john/Odin_Project/sign_up_form/THE_SOLSTICE.ttf), ![FONT](sign_up_form/THE_SOLSTICE.ttf);
+    src: url(/home/john/Odin_Project/sign_up_form/THE_SOLSTICE.ttf);
 }
 
 @font-face {
