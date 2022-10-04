@@ -108,3 +108,20 @@ input {
     color: white;
     border: 0px;
 }
+
+label {
+    padding-left: 10px;
+}
+
+button {
+    position: absolute;
+    z-index: 3;
+    background-color: #3d0309;
+    border: 0;
+    border-radius: 15px;
+    height: 50px;
+    width: 200px;
+    font-family: mySecondFont;
+    bottom: 13vh;
+    right: 50vw;
+}
