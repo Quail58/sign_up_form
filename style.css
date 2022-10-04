@@ -1,7 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -30,6 +32,11 @@ a:link, a:visited, a:hover, a:active {
     margin-right: 0;
     height: 100vh;
     width: 66.25vw;
-    background-color: black
+    background-color: black;
     position: relative;
+    z-index: 1;
+}
+
+.sum_text {
+    text-align: center;
 }
