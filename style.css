@@ -82,4 +82,26 @@ a:link, a:visited, a:hover, a:active {
     background-color: rgb(7, 7, 7);
     margin-top: 60px;
     box-shadow: 10px 5px 30px rgb(36, 36, 36);
+    padding: 25px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;
+}
+
+.leftForm, .rightForm {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 25px;
+    margin-right: 40px;
+    width: 20rem;
+    height: 25px;
+    font-size: larger;
+    font-family: mySecondFont;
 }
