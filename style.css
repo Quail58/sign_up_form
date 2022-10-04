@@ -1,9 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
+    background-color: black;
 }
 
 
@@ -11,13 +9,29 @@ body {
     height: 100vh;
     width: auto;
     position: absolute;
+    z-index: 0;
+}
+
+.welcome {
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    z-index: 1;
+    margin-top: 16vh;
+    height: 15vh;
+    width:33.75vw;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .photo_credit {
     position: absolute;
-    bottom: 15px;
+    bottom: 5px;
     left: 5px;
     color: white;
+    z-index: 1;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -34,9 +48,24 @@ a:link, a:visited, a:hover, a:active {
     width: 66.25vw;
     background-color: black;
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
-.sum_text {
-    text-align: center;
+.top {
+    padding-top: 100px;
+}
+.sum_text, .sum_text_2 {
+    text-align: left;
+    font-size: 2rem;
+    padding-left: 75px;
+    padding-right: 300px;
+    padding-bottom: 20px;
+}
+
+.middle{
+    height: 33vh;
+    width: auto;
+    background-color: rgb(7, 7, 7);
+    margin-top: 60px;
+    box-shadow: 10px 5px 30px rgb(36, 36, 36);
 }
